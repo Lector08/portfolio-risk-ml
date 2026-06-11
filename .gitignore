@@ -1,0 +1,37 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+.Python
+*.egg-info/
+
+# Дані (великі файли — не потрібні на GitHub)
+code/data/raw/
+*.csv
+
+# Моделі (великі бінарні файли)
+code/models/saved/*.json
+code/models/saved/*.npy
+code/models/saved/*.pkl
+
+# Але META файл залишаємо — він маленький і корисний
+!code/models/saved/sp500_meta.json
+!code/models/saved/ticker_sectors.json
+
+# Середовища
+venv/
+.venv/
+env/
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.idea/
+.vscode/
+*.swp

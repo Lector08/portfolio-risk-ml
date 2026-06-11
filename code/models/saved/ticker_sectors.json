@@ -1,0 +1,14 @@
+{
+  "EVVTY": {
+    "sector": "Consumer Discretionary",
+    "is_etf": false
+  },
+  "SGOV": {
+    "sector": "Technology",
+    "is_etf": true
+  },
+  "TRN.L": {
+    "sector": "Consumer Discretionary",
+    "is_etf": false
+  }
+}
